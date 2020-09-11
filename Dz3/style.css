@@ -1,0 +1,33 @@
+h1 {
+    color: white;
+    background-color: #a52a2a;
+    text-align: center;
+}
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+.footer{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.center {
+    text-align: center;
+    
+}
+.centerimg {
+    float:center; 
+    margin: 0;
+    width: 15px;
+    height: 15px;
+}
+footer {
+    background-color: black;
+    background-size: 100%; 
+    text-align: center;
+}
+.border {
+    border-style: dashed;
+    border-color: black;
+}
