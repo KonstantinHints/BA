@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мы идем на Привоз</title>
+  <style>
+    li {
+     list-style-type: none; 
+    } 
+  </style>
+</head>
+<body>
+  <form action="get">
+  <header> <h1>Список покупок:</h1></header>
+  <main>
+    <fieldset>
+      <legend>Продукты</legend>
+      <ul>
+        <li>
+          <input type="checkbox" name="meatPig" id="meatPig">
+          <label for="meatPig">Мясо свинина 1 кг.</label>
+        </li>
+        <li>
+          <input type="checkbox" name="meat" id="meat">
+          <label for="meat">Мясо говядина 1 кг.</label>
+        </li>
+        <li>
+          <input type="checkbox" name="chicken" id="chicken">
+          <label for="chicken">Куриные ножки 1 кг.</label>
+        </li>
+        <li>
+          <input type="checkbox" name="potato" id="potato">
+          <label for="potato">Картошка 3 кг.</label>
+        </li>
+        <li>
+          <input type="checkbox" name="onion" id="onion">
+          <label for="onion">Лук 1 кг.</label>
+        </li>
+        <li>
+          <input type="checkbox" name="carrot" id="carrot">
+          <label for="carrot">Морковь 1 кг.</label>
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend>Напитки:</legend>
+      <ul>
+      <li>
+        <input type="radio" id="r1" name="radio"> <!-- Я специально написал чтобы был выбор либо кола либо пепси -->
+        <label for="r1">Кока кола 2 литра.</label>
+      </li>
+      <li>
+        <input type="radio" id="r2" name="radio">
+        <label for="r2">Пепси кола 2 литра.</label>
+      </li>
+      <li>
+        <input type="checkbox" name="water" id="water">
+        <label for="water">Вода 5 литров без газа (любая).</label>
+      </li>
+      <li>
+        <input type="checkbox" name="tea" id="tea">
+        <label for="tea">Чай чорный (любой).</label>
+      </li>
+      </ul>
+    </fieldset>
+  </main>
+  <input type="submit" value="Submit"> 
+  </form> 
+</body>
+</html>
